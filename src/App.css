@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+
 }
 
 form{
@@ -17,8 +18,8 @@ form{
 }
 
 .titulo-nav{
-  color: #fff;
-  text-align: left;
+  color: #000000;
+  text-align: center;
   margin-top: 5px;
   font-family: Comfortaa;
   font-size: 25px;
@@ -26,31 +27,33 @@ form{
 
 .title{
   font-family: 'Comfortaa';
-  color: #1F7A39;
+  color: #D11141;
+  font-size: 45px;
 }
 
 .subtitulo{
   font-family: 'Poppins';
-  font-size: 25px;
+  font-size: 21px;
 }
 
 .container-home{
   display: flex;
-   margin: 100px;
-   min-height: 60vh;
-   flex-direction: row;
-   font-family: 'Comfortaa', 'Poppins';
+  min-height: 20vh;
+  flex-direction: row;
+  font-family: 'Comfortaa', 'Poppins';
 }
 
 .container{
   flex-direction: column;
-  margin-top: 5%;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 5%;
 }
 
 .textos{
-  margin-bottom: 5px;
+  margin-top: 15px;
   font-family: 'Poppins';
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .text-carrosel{
@@ -115,16 +118,19 @@ form{
 }
 
 .nav{
-  background-color: #1F7A39;
   height: 85px;
 }
 
 .navbar-expand .navbar-nav .nav-link{
-  color: #fff;
+  color: #000000;
   text-decoration: none;
-  font-weight: bold;
+  font-family: 'Poppins';
+  margin-bottom: 120px;
+  align-items: center;
 }
 
-.tam{
-  height: 38rem;
+.imgCelular{
+  display: flex;
+  margin-right: 4rem;
+  margin-top: 25px;
 }
